@@ -1,0 +1,10 @@
+Guide to install the project
+1 - Go to the neon website, you can type in google "Neon Serverless Postgres", and create an account there.
+2  - Create a new project. In the dashboard you will be given a long string that begins like this : "postgresql://"
+3 - In the root of your project, go the the env. file, and paste the string in the DATABASE_URL variable
+4 - After, go to VS code and open the project folder
+5 - Open up your terminal, and make you that are in the root of your project by typing cd "/path_of_the_project"
+6 - type in npm install to install all the dependencies
+7 - next, type in the terminal npm run db:generate and then npm run db:push to create the tables in the database
+8 - now, typing npm run dev to run the project in the localhost adress http://localhost:3000/
+8 - go the browser, and access to http://localhost:3000/ and you're ready to go.
